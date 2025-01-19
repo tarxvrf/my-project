@@ -1,0 +1,10 @@
+js = What it is: JavaScript is a programming language that runs in web browsers, making web pages interactive and dynamic.
+Use: It's used for client-side scripting, like handling user interactions, fetching data, and manipulating the web page’s content.
+
+Reactjs = React.js is a JavaScript library used to build user interfaces, especially for single-page applications (SPAs).
+Use: It allows developers to create reusable UI components and manage the state of the application efficiently.
+
+nextjs =  Next.js is a React framework that helps you build web applications with features like server-side rendering (SSR), static site generation (SSG), and automatic code splitting.
+Use: It simplifies the setup for React applications and optimizes performance by providing built-in features such as routing and SEO enhancements.
+
+Vercel =is a platform for frontend developers that makes it easy to deploy and host websites, applications, and static sites. It is particularly popular for Next.js applications,
