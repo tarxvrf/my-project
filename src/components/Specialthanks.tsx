@@ -9,18 +9,7 @@ const Penawaran = () => {
           framework dan library
         </h1>
       </div>
-      <div data-aos="zoom-in" className="grid grid-cols-2">
-        <div>
-          <p className="pt-5">
-            {" "}
-            <span className="text-customcolor font-bold text-xl">
-              I hope
-            </span>{" "}
-            this will be a good step for me to get a job at the Companies
-            technology in many country.
-          </p>
-        </div>
-      </div>
+     
 
      
         <div
