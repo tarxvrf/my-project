@@ -27,7 +27,7 @@ const Themechanger = () => {
 
   return (
 
-    <div >    
+    <div className="flex justify-end p-3">    
       <label className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
         <input type="checkbox"   onChange={handlechange} data-set-theme={state} value="ACTIVECLASS" />
