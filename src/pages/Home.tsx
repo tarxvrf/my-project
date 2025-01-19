@@ -5,6 +5,7 @@ import Themechanger from "../components/Themechanger"
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import Slogan from "../components/Slogan"
+import Sponsor from "../components/sponsor"
 
 const Home = () => {
   
@@ -23,6 +24,7 @@ const Home = () => {
       <Themechanger/>
       <Hero/>      
       <About/> 
+      <Sponsor/>
       <Slogan/>     
      
       
