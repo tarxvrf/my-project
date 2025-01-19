@@ -22,7 +22,7 @@ const Sponsor = () => {
   ];
   return (   
       
-        <div className="py-20 flex min-h-36 justify-center items-center">   
+        <div className="py-10 flex min-h-36 justify-center items-center mt-10">   
            <Marquee speed={20} autoFill={true}>
             <ul className="flex items-center gap-3 sm:gap-20 px-3 ">
             {sponsor.map((val, index) => (            

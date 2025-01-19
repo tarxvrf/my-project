@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-4xl sm:text-8xl font-bold">
-            <span className="hello">Hello, </span>Tulus.dev
+            <span className="hello">Tulus.dev </span>
           </h1>
           <h4 className="text-2xl font-semibold">{text}<span className="text-red-600 font-bold text-2xl"><Cursor /></span></h4>
           <p className="pb-14 pt-10 sm:pt-16 text-xl">

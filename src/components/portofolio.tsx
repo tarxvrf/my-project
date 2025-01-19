@@ -19,7 +19,7 @@ const Portofolio = () => {
           <h4>
             This is simple calculator, I made this use Reactjs
           </h4>
-          <a role="button" className="btn w-1/4 btn-warning" href={"https://browiwitapps.vercel.app/"}>lihat</a>
+          <a role="button" className="btn w-1/4 btn-warning" href={"https://browiwitapps.vercel.app/"}>visit</a>
         </div>
         <div
           data-aos="flip-right"
@@ -31,7 +31,7 @@ const Portofolio = () => {
           <h4>
           This is simple Music Player,  made this use Reactjs
           </h4>
-          <a role="button" className="btn w-1/4 btn-warning" href={"https://browiwit-music-player.vercel.app/"}>lihat</a>
+          <a role="button" className="btn w-1/4 btn-warning" href={"https://browiwit-music-player.vercel.app/"}>visit</a>
         </div>
       </div>
     </div>

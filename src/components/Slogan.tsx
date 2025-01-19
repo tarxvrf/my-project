@@ -24,7 +24,7 @@ const Slogan = () => {
   }
   return (
     <div className="slogan mt-20 mx-2">
-      <h1 className="judul sm:text-4xl text-2xl font-bold text-center">
+      <h1 data-aos="zoom-in" className="judul sm:text-4xl text-2xl font-bold text-center">
         Technology Used
       </h1>
       <div className="grid sm:grid-cols-3 gap-5 sm:gap-10 pt-10">

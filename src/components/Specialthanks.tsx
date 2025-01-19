@@ -1,12 +1,13 @@
 const Penawaran = () => {
   return (
-    <div className="card mt-20 flex flex-col border px-2">        
+    <div className="card mt-20 flex flex-col border px-2">
+      <div data-aos="zoom-in">        
         <h1 className="judul text-center font-bold sm:text-4xl text-2xl pb-10">Special Thanks</h1>
         <h1 className="badge badge-warning text-lg px-2 py-3">
           framework dan library
         </h1>     
-
-        <div className="grid grid-cols-2">
+      </div>
+        <div data-aos="zoom-in" className="grid grid-cols-2">
           <div>
             <p className="pt-5">
               {" "}
@@ -17,7 +18,7 @@ const Penawaran = () => {
         </div>
 
         <div className="flex flex-col sm:flex-col lg:flex-row lg:justify-center">
-        <div className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
+        <div data-aos="fade-right" className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
           <div>
             <img className="bg-white rounded-full border w-[200px]" src="../Png/nextjs.png" alt="" />
           </div>
@@ -31,7 +32,7 @@ const Penawaran = () => {
           </div>
         </div>
 
-        <div className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
+        <div data-aos="fade-left" className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
           <div>
             <img className=" w-[200px]" src="../Png/react.png" alt="" />
           </div>
