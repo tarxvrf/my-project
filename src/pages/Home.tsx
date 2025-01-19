@@ -4,6 +4,7 @@ import Hero from "../components/Hero"
 import Themechanger from "../components/Themechanger"
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import Slogan from "../components/Slogan"
 
 const Home = () => {
   
@@ -21,7 +22,8 @@ const Home = () => {
      <div className="container mx-auto min-h-96">
       <Themechanger/>
       <Hero/>      
-      <About/>      
+      <About/> 
+      <Slogan/>     
      
       
     </div>
