@@ -3,7 +3,7 @@
 const Penawaran = () => {
  
   return (
-    <div className="mt-20 grid sm:grid-cols-4 gap-5 pt-5 pb-5 mx-2">
+    <div className="mt-20 grid sm:grid-cols-4 gap-5 pt-5 pb-5 ">
       <div className="col-span-2">
         <h1 className="sm:text-4xl text-2xl pb-3">Special Thanks</h1>
         <h1 className="badge badge-warning text-lg px-2 py-3">
