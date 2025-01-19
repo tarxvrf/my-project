@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import Slogan from "../components/Slogan"
 import Sponsor from "../components/sponsor"
 import Portofolio from "../components/portofolio"
-import Penawaran from "../components/Penawaran"
+import Specialthanks from "../components/Specialthanks"
 
 const Home = () => {
   
@@ -24,12 +24,13 @@ const Home = () => {
     <div className="min-h-screen">     
      <div className="container mx-auto min-h-96">
       <Themechanger/>
-      <Hero/>      
+      <Hero/> 
       <About/> 
       <Sponsor/>
       <Slogan/> 
       <Portofolio/> 
-      <Penawaran/>   
+      <Specialthanks/>
+         
      
       
     </div>
