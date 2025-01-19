@@ -17,8 +17,8 @@ const Penawaran = () => {
           </div>          
         </div>
 
-        <div className="flex flex-col sm:flex-col lg:flex-row lg:justify-center">
-        <div data-aos="fade-right" className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
+        <div data-aos="fade-right" className="flex flex-col sm:flex-col lg:flex-row lg:justify-center">
+        <div  className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
           <div>
             <img className="bg-white rounded-full border w-[200px]" src="../Png/nextjs.png" alt="" />
           </div>
@@ -32,7 +32,7 @@ const Penawaran = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left" className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
+        <div className="pt-5 m-3 flex flex-col sm:flex-row gap-2">
           <div>
             <img className=" w-[200px]" src="../Png/react.png" alt="" />
           </div>
