@@ -4,7 +4,6 @@ import Hero from "../components/Hero"
 import Penawaran from "../components/Penawaran"
 import Portofolio from "../components/portofolio"
 import Slogan from "../components/Slogan"
-import Sponsor from "../components/sponsor"
 import Themechanger from "../components/Themechanger"
 import AOS from 'aos'
 import 'aos/dist/aos.css';
