@@ -34,7 +34,7 @@ const Penawaran = () => {
               alt=""
             />
           </div>
-          <div className="text-justify lg:w-96">
+          <div className="text-justify">
             I think{" "}
             <span className="text-customcolor font-bold text-xl">NextJs</span>{" "}
             provide to me a lot of things that I need to development
@@ -60,7 +60,7 @@ const Penawaran = () => {
           <div>
             <img className=" w-[200px]" src="../Png/react.png" alt="" />
           </div>
-          <div className="lg:w-96 text-justify">
+          <div className="text-justify">
             I think{" "}
             <span className="text-customcolor font-bold text-xl">Reactjs</span>{" "}
             provide many library to combine for cool UI/UX and animated and have
