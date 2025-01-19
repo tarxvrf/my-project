@@ -24,9 +24,7 @@ const Home = () => {
     <div className="min-h-screen">     
      <div className="container mx-auto min-h-96">
       <Themechanger/>
-      <Hero/> 
-
-      <Sponsor/> 
+      <Hero/>      
       <About/>      
       <Slogan/>
       <Portofolio/> 
