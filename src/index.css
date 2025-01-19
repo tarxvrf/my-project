@@ -16,6 +16,13 @@
 
     
 }
+[data-theme=""]{
+    --bgcolor: linear-gradient(180deg, rgba(239,250,252,1) 0%, rgba(151,175,175,1) 50%, rgba(40,165,168,1) 100%);
+    --textcolor:black;
+    --judulcolor:rgb(84, 50, 205);
+    
+}
+
 
 body{
     background: var(--bgcolor);
