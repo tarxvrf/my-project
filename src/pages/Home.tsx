@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import Slogan from "../components/Slogan"
 import Sponsor from "../components/sponsor"
 import Portofolio from "../components/portofolio"
+import Penawaran from "../components/Penawaran"
 
 const Home = () => {
   
@@ -27,7 +28,8 @@ const Home = () => {
       <About/> 
       <Sponsor/>
       <Slogan/> 
-      <Portofolio/>    
+      <Portofolio/> 
+      <Penawaran/>   
      
       
     </div>
