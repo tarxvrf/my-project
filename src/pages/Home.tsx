@@ -1,9 +1,6 @@
 import { useEffect } from "react"
 import About from "../components/about"
 import Hero from "../components/Hero"
-import Penawaran from "../components/Penawaran"
-import Portofolio from "../components/portofolio"
-import Slogan from "../components/Slogan"
 import Themechanger from "../components/Themechanger"
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -25,10 +22,7 @@ const Home = () => {
       <Themechanger/>
       <Hero/>      
       <About/>      
-      <Slogan/>
-      <Portofolio/> 
-       
-      <Penawaran/>
+     
       
     </div>
     
