@@ -41,7 +41,7 @@ const About = () => {
               <span className="text-customcolor font-bold">backend.</span>
             </h1>
             <br />
-            <h1 className="font-bold">This is technology that I used in my project</h1>
+            <h1 className="font-bold">This is technology that I have learned:</h1>
           </div>
           <div className="flex flex-row lg:w-1/2 gap-3">
             <div
