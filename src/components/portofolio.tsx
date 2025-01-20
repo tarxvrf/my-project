@@ -26,7 +26,7 @@ const Portofolio = () => {
       
       <div className="flex flex-wrap justify-center py-10 gap-5 ">
         <div className="text-xl p-4 badge badge-warning mt-5 animate-pulse ">Certificate</div>
-        <div className="mt-10 mb-10 ">
+        <div data-aos="flip-left" className="mt-10 mb-10">
           <div>
             {" "}
             <img
@@ -52,7 +52,7 @@ const Portofolio = () => {
             </dialog>
           </div>
         </div>
-        <div className="mt-10 mb-10">
+        <div data-aos="flip-right" className="mt-10 mb-10">
           <div>
             {" "}
             <img
@@ -83,7 +83,7 @@ const Portofolio = () => {
       <div className="text-xl p-4 badge badge-warning mb-3">Example Project</div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
         <div
-          data-aos="flip-right"
+          data-aos="flip-down"
           className="card flex flex-col gap-3 border py-3 px-2 "
         >
           <div className="flex justify-center">
@@ -99,8 +99,7 @@ const Portofolio = () => {
           </a>
         </div>
         <div
-          data-aos="flip-right"
-          className="card flex flex-col gap-3 border py-3 px-2"
+          data-aos="flip-up" className="card flex flex-col gap-3 border py-3 px-2"
         >
           <div className="flex justify-center">
             <img className="rounded-lg" src="../assets/image1.png" alt="" />
