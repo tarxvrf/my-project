@@ -34,7 +34,7 @@ const Slogan = () => {
               <img
                 role="button"
                 onClick={handlemodal}
-                className="animate-bounce w-[200px]"
+                className="animate-bounce w-[120px]"
                 src="../Png/react.png"
                 alt=""
               />

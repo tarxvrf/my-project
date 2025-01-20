@@ -43,15 +43,13 @@ const About = () => {
             <br />
             <h1 className="font-bold">This is technology that I used in my project</h1>
           </div>
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row lg:w-1/2 gap-3">
             <div
               data-aos="flip-right"
-              className="collapse border mt-5"
+              className="collapse bg-yellow-400  border mt-5"
             >
               <input type="checkbox" />
-              <h1 className="animate-pulse collapse-title text-lg text-center  font-semibold">
-                FrontEnd
-              </h1>
+              <div className="collapse-title flex justify-center font-medium">Frontend </div>
               <div className="collapse-content">
                 <ul>
                   {skilfe.map((item, index) => (
@@ -63,12 +61,10 @@ const About = () => {
 
             <div
               data-aos="flip-right"
-              className=" collapse border mt-5"
+              className=" collapse bg-yellow-400   border mt-5"
             >
               <input type="checkbox" />
-              <h1 className="animate-pulse text-center collapse-title text-lg  font-semibold">
-                BackEnd
-              </h1>
+              <div className="collapse-title flex justify-center font-medium">Backend </div>
               <div className="collapse-content">
                 <ul>
                   {skilbe.map((item, index) => (
