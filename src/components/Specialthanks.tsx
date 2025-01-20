@@ -43,7 +43,7 @@ const Penawaran = () => {
         </div>
 
         <div
-          data-aos="fade-left"
+          data-aos="fade-right"
           className="pt-5 m-3 flex flex-col sm:flex-row gap-2"
         >
           <div>

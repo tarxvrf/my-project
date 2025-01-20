@@ -32,7 +32,7 @@ const Sponsor = () => {
               <li key={index}>                
                 <img
                   
-                  className="card w-[100px] w-[80px] sm:w-[200px]"
+                  className="card w-[100px] sm:w-[200px]"
                   src={val.name}                                
                   alt=""
                 />

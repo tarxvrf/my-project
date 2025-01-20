@@ -24,7 +24,7 @@ const Hero = () => {
             applications using <span className="text-xl sm:text-2xl font-bold text-customcolor">Reactjs</span> for the frontend and <span className="sm:text-2xl text-xl font-bold text-customcolor">Nextjs</span>  for
             server-side rendering, static site generation, and seamless routing
           </p>
-          <button className="btn btn-primary">Get Started </button>
+        {/*<button className="btn btn-primary">Get Started </button>*/}
         </div>
       </div>
     </div>

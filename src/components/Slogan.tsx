@@ -47,7 +47,7 @@ const Slogan = () => {
                     alt=""
                   />
                   <p className="dialogcolor font-thin">
-                    React.js is a JavaScript library used to build user
+                   <span className="font-bold">ReactJS</span>  is a JavaScript library used to build user
                     interfaces, especially for single-page applications (SPAs).
                     Use: It allows developers to create reusable UI components
                     and manage the state of the application efficiently.
@@ -70,7 +70,7 @@ const Slogan = () => {
               <img
                 role="button"
                 onClick={handlemodal2}
-                className="border bg-white rounded-full animate-bounce w-[110px]"
+                className="border bg-white rounded-full animate-bounce w-[100px]"
                 src="../Png/nextjs.png"
                 alt=""
               />
@@ -83,7 +83,7 @@ const Slogan = () => {
                     alt=""
                   />
                   <p className="dialogcolor font-thin">
-                    Next.js is a React framework that helps you build web
+                    <span className=" font-bold">Nextjs</span> is a React framework that helps you build web
                     applications with features like server-side rendering (SSR),
                     static site generation (SSG), and automatic code splitting.
                     
@@ -95,7 +95,7 @@ const Slogan = () => {
                   </div>
                 </div>
               </dialog>
-              <h1>Reactjs</h1>
+              <h1>Nextjs</h1>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ const Slogan = () => {
                     alt=""
                   />
                   <p className="dialogcolor font-thin">
-                    Vercel is a platform for frontend developers that makes it
+                    <span className="font-bold">Vercel</span> is a platform for frontend developers that makes it
                     easy to deploy and host websites, applications, and static
                     sites. It is particularly popular for Next.js applications,
                   </p>

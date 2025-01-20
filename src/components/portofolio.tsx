@@ -2,10 +2,16 @@ import { useRef } from "react";
 
 const Portofolio = () => {
   const dialog = useRef<HTMLDialogElement>(null);
+  const dialog2 = useRef<HTMLDialogElement>(null);
 
   function handledialog(): void {
     if (dialog.current) {
       dialog.current.showModal();
+    }
+  }
+   function handledialog2(): void {
+    if (dialog2.current) {
+      dialog2.current.showModal();
     }
   }
 
@@ -18,15 +24,15 @@ const Portofolio = () => {
         Portofolio
       </h1>
       
-      <div className="flex flex-wrap justify-center py-10 ">
-        <div className="text-xl p-4 badge badge-warning ">Certificate</div>
-        <div className="mt-10 mb-10">
+      <div className="flex flex-wrap justify-center py-10 gap-5 ">
+        <div className="text-xl p-4 badge badge-warning mt-5 animate-pulse ">Certificate</div>
+        <div className="mt-10 mb-10 ">
           <div>
             {" "}
             <img
               role="button"
               onClick={handledialog}
-              className="w-80"
+              className="w-80 "
               src="../Png/dicoding.png"
               alt=""
             />
@@ -51,12 +57,12 @@ const Portofolio = () => {
             {" "}
             <img
               role="button"
-              onClick={handledialog}
+              onClick={handledialog2}
               className="w-80"
               src="../Png/kelastambahan.png"
               alt=""
             />
-            <dialog ref={dialog} className="modal">
+            <dialog ref={dialog2} className="modal">
               <div className="modal-box font-thin dialogcolor bg-slate-200  outline outline-2 outline-yellow-600 ">
                 <img src="../Png/kelastambahan.png" className="w-full" alt="" />
                 <p className="pt-5">
