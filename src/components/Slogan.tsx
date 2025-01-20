@@ -106,7 +106,7 @@ const Slogan = () => {
               <img
                 role="button"
                 onClick={handlemodal3}
-                className="rounded-xl animate-bounce w-[110px]"
+                className="rounded-xl animate-bounce w-[100px]"
                 src="../Png/vercel.png"
                 alt=""
               />
