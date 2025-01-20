@@ -13,7 +13,9 @@ const Themechanger = () => {
    
 
     function handlechange(): void {
-          
+        if (state === '') {
+            setstate('dark')
+        }     
       if(state ==='dark'){
         setstate('light')
       }
