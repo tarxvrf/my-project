@@ -12,7 +12,10 @@ const Themechanger = () => {
     })
    
 
-    function handlechange(): void {           
+    function handlechange(): void {
+        if (state === '') {
+            setstate('dark')
+        }     
       if(state ==='dark'){
         setstate('light')
       }
@@ -24,7 +27,7 @@ const Themechanger = () => {
 
   return (
 
-    <div className="flex justify-end p-3">    
+    <div className="flex justify-end">    
       <label className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
         <input type="checkbox"   onChange={handlechange} data-set-theme={state} value="ACTIVECLASS" />
