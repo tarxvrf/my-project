@@ -17,8 +17,9 @@ const Portofolio = () => {
       >
         Portofolio
       </h1>
-      <div className="text-xl p-4 badge badge-warning">Certificate</div>
-      <div className="flex flex-wrap justify-center  gap-3">
+      
+      <div className="flex flex-wrap justify-center py-10 ">
+        <div className="text-xl p-4 badge badge-warning ">Certificate</div>
         <div className="mt-10 mb-10">
           <div>
             {" "}
