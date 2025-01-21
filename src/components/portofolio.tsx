@@ -3,6 +3,7 @@ import { useRef } from "react";
 const Portofolio = () => {
   const dialog = useRef<HTMLDialogElement>(null);
   const dialog2 = useRef<HTMLDialogElement>(null);
+  const dialog3 = useRef<HTMLDialogElement>(null);
 
   function handledialog(): void {
     if (dialog.current) {
@@ -12,6 +13,11 @@ const Portofolio = () => {
    function handledialog2(): void {
     if (dialog2.current) {
       dialog2.current.showModal();
+    }
+  }
+  function handledialog3(): void {
+    if (dialog3.current) {
+      dialog3.current.showModal();
     }
   }
 
@@ -67,6 +73,32 @@ const Portofolio = () => {
                 <img src="../Png/kelastambahan.png" className="w-full" alt="" />
                 <p className="pt-5">
                   This certificate is a proof that I have completed the course about how become ReactJS Freelancer
+                 
+                </p>
+                <div className="modal-action">
+                  <form method="dialog">
+                    <button className="btn btn-warning">close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
+          </div>
+        </div>
+        <div data-aos="flip-right" className="mt-10 mb-10">
+          <div>
+            {" "}
+            <img
+              role="button"
+              onClick={handledialog3}
+              className="w-80"
+              src="../Png/Hackerank.png"
+              alt=""
+            />
+            <dialog ref={dialog3} className="modal">
+              <div className="modal-box font-thin dialogcolor bg-slate-200  outline outline-2 outline-yellow-600 ">
+                <img src="../Png/Hackerank.png" className="w-full" alt="" />
+                <p className="pt-5">
+                  This certificate is a proof that I have completed the course about how become Python in <span className="font-bold">HackerRank</span>
                  
                 </p>
                 <div className="modal-action">
