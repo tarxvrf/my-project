@@ -145,6 +145,21 @@ const Portofolio = () => {
             visit
           </a>
         </div>
+        <div
+          data-aos="flip-up" className="card flex flex-col gap-3 border py-3 px-2"
+        >
+          <div className="flex justify-center">
+            <img className="rounded-lg" src="../assets/bgsholat.png" alt="" />
+          </div>
+          <h4>This is simple Time Prayer with API, made this use Reactjs</h4>
+          <a
+            role="button"
+            className="btn w-1/4 btn-warning"
+            href={"https://jadwalsholat-six.vercel.app/"}
+          >
+            visit
+          </a>
+        </div>
       </div>
     </div>
   );
